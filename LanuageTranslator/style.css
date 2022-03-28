@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+#container{
+    margin: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container input, #translatedBox{
+    width: 50.5%;
+    height: 78%;
+    font-size: 20px;
+    background-color: white;
+}
+
+#container input{
+    width: 49.5%;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+
+#label{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid gray;
+}
+
+#label > div:nth-child(2){
+    width: 50%;
+    padding-top: 18px;
+    padding-left: 50px;
+    /* border: 1px solid blue; */
+}
+
+#leftBox{
+    width: 54%;
+    padding-top: 0px;
+    padding-left: 0px;
+    display: flex;
+    border-right: 1px solid gray;
+}
+
+#leftBox div{
+    height: 20px;
+    /* border: 1px solid red; */
+    margin: 18px 0 0 50px;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    margin: 9px 0 0 10px;
+    border: none;
+    background-color:white;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+img{
+    width: 80%;
+}
+
+.translatedText{
+    margin: 20% 0 0 4%;
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
